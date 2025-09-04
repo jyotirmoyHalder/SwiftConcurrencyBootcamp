@@ -17,14 +17,14 @@ class TaskBootcampViewModel: ObservableObject {
         
         try? await Task.sleep(for: .nanoseconds(5_000_000_000))
         
-        for x in array {
-            // work
-            
-            try Task.checkCancellation()
-            
-            
-        }
-        
+//        for x in array {
+//            // work
+//            
+//            try Task.checkCancellation()
+//            
+//            
+//        }
+//        
         do {
             guard let url  = URL(string: "https://picsum.photos/1000") else { return }
             let (data, _) = try await URLSession.shared.data(from: url, delegate: nil)
