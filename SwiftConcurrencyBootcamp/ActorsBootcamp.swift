@@ -129,11 +129,11 @@ struct ActorsBootcamp: View {
     var body: some View {
         TabView {
             Tab("Home", systemImage: "house.fill") {
-                HomeView()
+//                HomeView()
             }
             
             Tab("Home", systemImage: "magnifyingglass") {
-                BrowseView()
+//                BrowseView()
             }
         }
     }
