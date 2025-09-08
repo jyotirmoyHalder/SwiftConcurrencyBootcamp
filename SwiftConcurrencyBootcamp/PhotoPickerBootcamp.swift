@@ -95,6 +95,7 @@ struct PhotoPickerBootcamp: View {
                                 .resizable()
                                 .scaledToFit()
                                 .frame(width: 100, height: 100)
+                                .padding()
                                 .clipShape(RoundedRectangle(cornerRadius: 10))
                         }
                     }
